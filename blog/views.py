@@ -36,10 +36,6 @@ class PostDeleteView(generic.DeleteView):
     success_url = reverse_lazy('posts_list')
 
 
-
-
-
-#
 # from django.shortcuts import render, redirect
 # from .models import Post
 # from django.http import HttpResponse
@@ -101,10 +97,7 @@ class PostDeleteView(generic.DeleteView):
 #     else:
 #         form = NewPostForm()
 #         return render(request, 'blog/post_create.html', context={'form': form})
-#
-#
-#
-#
+
 #
 # def post_update_view(request, pk):
 #     post = get_object_or_404(Post, pk=pk)
@@ -125,29 +118,6 @@ class PostDeleteView(generic.DeleteView):
 #     return render(request, 'blog/post_delete.html', context={'post': post})
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # def post_detail_view(request,pk):
 #     print('ID IN URL:', pk)
 #     return HttpResponse(f'id:{pk}')
@@ -165,15 +135,6 @@ class PostDeleteView(generic.DeleteView):
 #         post= None
 #         print= ('Expected')
 #         return render(request, 'blog/post_detail.html', {'post': post})
-
-
-
-
-
-
-
-
-
 
 
 
@@ -257,9 +218,4 @@ class PostDeleteView(generic.DeleteView):
 #     template_name = 'blog/post_delete.html'
 #     success_url = reverse_lazy('posts_list')
 
-
-
-
-# functional view -> view def
-# class-based view
 
